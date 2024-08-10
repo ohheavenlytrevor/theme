@@ -235,7 +235,7 @@
     margin-bottom: 3px !important;
 }
 .navMenuOption:hover:not(.navMenuOption-selected) {
-    background-color: rgba(44, 44, 44, 0.7);
+    background-color: #ba36f0;
 }
 /* Center icons and text and shift to the left */
 .navMenuOptionIcon,
