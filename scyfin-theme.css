@@ -4,7 +4,7 @@
     --secondary-accent-color: #f6f6f6;
     --primary-background-color: #101010;
     --secondary-background-color: #181818;
-    --primary-background-transparent: rgba(35,35,35,0.5);
+    --primary-background-transparent: rgba(103,103,103,0.55);
     --secondary-background-transparent: rgba(0,0,0,0.6);
     --rounded-cards: 15px;
     --blur: 10px;
@@ -176,7 +176,7 @@
 }
 .itemProgressBar:not(.playbackProgress):not(.transcodingProgress):not(.backgroundProgress) {
     height: 10px !important;
-    background: var(--primary-background-transparent) !important;
+    background: (none) !important;
     backdrop-filter: blur(2px) !important;
 }
 .innerCardFooterClear {
@@ -983,7 +983,7 @@ html,
     margin-left: 255px !important;
     margin-top: -195px !important;
     font-size: smaller !important;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 0.5)  !important;
     z-index: 1 !important;
 }
 .layout-desktop #loginPage .loginDisclaimerContainer {
