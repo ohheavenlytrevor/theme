@@ -176,7 +176,7 @@
 }
 .itemProgressBar:not(.playbackProgress):not(.transcodingProgress):not(.backgroundProgress) {
     height: 10px !important;
-    background: var(--primary-accent-color) !important;
+    background: (none) !important;
     backdrop-filter: blur(2px) !important;
 }
 .innerCardFooterClear {
