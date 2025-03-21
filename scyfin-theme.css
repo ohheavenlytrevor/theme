@@ -1080,3 +1080,5 @@ html,
     background: var(--primary-background-transparent) !important;
     backdrop-filter: blur(var(--blur)) !important;
 }
+
+@media all and (min-width: 00em) { .homePage .emby-scroller { margin-right: 0; } .homePage .emby-scrollbuttons { display: none; } .homePage .itemsContainer { align-items: center; justify-content: center; flex-wrap: wrap; } }
